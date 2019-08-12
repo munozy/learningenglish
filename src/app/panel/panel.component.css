@@ -1,0 +1,23 @@
+.jumbotron {
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px
+}
+.btn-primary {
+    background-color: #ff5100fb;
+    border-color: #ff5100fb;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #ff7b00fb;
+    border-color: #ff7b00fb;
+  }
+
+.btn-primary.active.focus, .btn-primary.active:focus, 
+.btn-primary.active:hover, .btn-primary:active.focus, 
+.btn-primary:active:focus, .btn-primary:active:hover, 
+.open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, 
+.open>.dropdown-toggle.btn-primary:hover {
+    background-color: rgb(243, 126, 47);
+    border-color:  rgb(243, 126, 47);
+  }
